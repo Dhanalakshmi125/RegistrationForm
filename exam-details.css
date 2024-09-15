@@ -1,0 +1,98 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: #f4f4f4;
+    width: 100%;
+} */
+
+body {
+    /* margin: 20px 0px 0px 0px; */
+    font-family: Arial, sans-serif;
+    margin-top: 200px;
+    
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* max-width: 1000px; */
+    width: 100%;
+    /* margin-top: 500px; */
+    margin: 50px auto 0; /* 50px gap from the top */
+}
+
+/* h2 {
+    margin-top: 0;
+} */
+
+#questionText {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#essayText {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+    height: auto;
+}
+
+#wordCount {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+#timer {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #d9534f; /* Bootstrap danger color */
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.warning {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text */
+    border: 1px solid #f5c6cb; /* Border matching the background color */
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    display: none; /* Hidden by default */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.warning.visible {
+    display: block; /* Show when needed */
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: 80px auto 0; /* Margin top to avoid overlap with warning message */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
